@@ -35,10 +35,10 @@ The 0x06 is the encoded value to light the right segments on the display.
 #### Number encoding
 
 TM1637 uses the following format for converting data bytes to seven segment display: 0bHGFEDCBA.
-``
+```
    __A__
 F |     | B
-	_G_
+   __G__
 E |     | C
    __D__   _H
 
