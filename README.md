@@ -28,8 +28,9 @@ To put numbers in the display send four commands in the following order:
 
 
 For example, let's send packages to put the number one in the rightmost digit with display into lowest bright setting:
-|start|0x40|stop|start|0xC3|0x06|stop|start|0x88|stop|
-
+```
+| start | 0x40 | stop | start | 0xC3 | 0x06 | stop | start | 0x88 | stop |
+``` 
 The 0x06 is the encoded value to light the right segments on the display.
 
 #### Number encoding
